@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+wheels/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Data files (avoid committing large or private datasets)
+data/raw/
+data/private/
+*.parquet
+*.db
+*.sqlite
+*.sqlite3
+
+# Keep folder placeholders and documentation
+!data/raw/.gitkeep
+!data/raw/README.md
+!data/private/README.md
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# Excel temporary/lock files
+~$*.xlsx
+~$*.xls
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test and coverage
+.pytest_cache/
+.coverage
+htmlcov/
